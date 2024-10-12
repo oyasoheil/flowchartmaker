@@ -1,0 +1,10 @@
+// tebyan
+digraph {
+	A [label="test process"]
+	B [label="decision man"]
+	C [label="positive outcome soheil"]
+	D [label="nega soheil"]
+	A -> B
+	B -> C [label=Yes]
+	B -> D [label=No]
+}

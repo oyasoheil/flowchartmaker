@@ -1,0 +1,10 @@
+// Tebyan pathway
+digraph {
+	A [label="choosing best future for SSV"]
+	B [label="keep or release SSV"]
+	C [label="Keep SSV + PMO"]
+	D [label="lose SSV and PMO"]
+	A -> B
+	B -> C [label=Yes]
+	B -> D [label=No]
+}
